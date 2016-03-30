@@ -30,8 +30,7 @@ vector<int> two_sum(vector<int>& nums, int target) {
         // number will be in the input list
         if(num_indices.find(num) != num_indices.end()) {
             num_indices[num] += i;
-        }
-        else {
+        } else {
             num_indices.insert(make_pair(num, i));
         }
     }
@@ -48,8 +47,7 @@ vector<int> two_sum(vector<int>& nums, int target) {
                     solution.push_back(num_indices[i] - i);
                     break;
                 }
-            }
-            else {  // Not the same number: get solution
+            } else {  // Not the same number: get solution
                 solution.push_back(i);
                 solution.push_back(num_indices[num_look_for]);
                 break;
