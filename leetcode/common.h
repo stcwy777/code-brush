@@ -7,8 +7,9 @@
  *  03/18/2010: file created
  *  03/28/2016: modified for code-brush project
  *  03/29/2016: added template function for cleaning up a linked list
- *
- * Author: Yun Wang <yunw@email.arizona.edu>
+ *  03/30/2016: added const value MAX_CHAR and PI
+ *    
+ *  Author: Yun Wang <yunw@email.arizona.edu>
  */
 #ifndef COMMON_H
 #define COMMON_H
@@ -34,6 +35,10 @@
 #include <unordered_map>
 #include <unordered_set>
 using namespace std;
+
+// Const values
+const int MAX_CHAR = 256;       // Maximum number of chars in ASCII
+const double PI = 3.1415926     // Value of PI
 
 // Check whether character is a number or not
 inline int isNumber(char charValue)
