@@ -6,6 +6,7 @@
  * History: 
  *  03/18/2010: file created
  *  03/28/2016: modified for code-brush project
+ *  03/29/2016: added template function for cleaning up a linked list
  *
  * Author: Yun Wang <yunw@email.arizona.edu>
  */
@@ -130,4 +131,15 @@ inline u_int ucs2utf(char* utfCode, u_short ucsCode)
     return size;
 }
 
+// Clean up a singly linked list
+template<typename T>
+void clear_list(T* list_head)
+{
+    T* tmp_p = list_head;
+    while (list_head) {
+	list_head = tmp_p->next;
+    	delete tmp_p;
+	tmp_p = list_head;
+    }
+}
 #endif 
