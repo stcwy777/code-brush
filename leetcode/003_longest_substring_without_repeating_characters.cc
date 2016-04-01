@@ -56,8 +56,7 @@ int length_of_longest_substring(string s) {
     return max_len; 
 }
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     // Some test cases
     string s[6] = {"eeydgwdykpv", "cdd", "aaaaa", "a", "", "anviaj"};
     for (int i = 0; i < 6; i++) {

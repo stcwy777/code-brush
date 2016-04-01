@@ -57,8 +57,7 @@ vector<int> two_sum(vector<int>& nums, int target) {
     return solution; 
 }
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     // Test 
     vector<int> nums = {3,2,4};
     int target = 6;

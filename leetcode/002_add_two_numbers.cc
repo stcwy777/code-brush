@@ -78,8 +78,7 @@ ListNode* add_two_numbers(ListNode* l1, ListNode* l2) {
     return added_list_head; 
 }
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     // Test: Initialize two number lists 
     vector<int> l1_val = {2};
     vector<int> l2_val = {8, 9, 9};
