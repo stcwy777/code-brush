@@ -1,7 +1,7 @@
 # code-brush
 This repo is created to practice and brush up my coding skills. I will start
 with leetcode and (ocassionaly) problems from the books I am reading, such as 
-"Programming Pearls".
+"Programming Pearls". Uploaded leetcode solutions have passed online judgement.
 
 C++ is my choice of languange. As for now, I exclusively use Python in my Ph.D.
 studies, it feels like I almost forget how to use C++ which is my main language
