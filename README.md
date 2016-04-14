@@ -20,5 +20,5 @@ Header file 'common.h' includes commonly used headers plus some utils I used in 
 previous projects.
 
 ## History
-03-28-2016: Repo created.
+03-28-2016: Repo created.  
 04-05-2016 - 04-12-2016: Take one week off for paper writing
