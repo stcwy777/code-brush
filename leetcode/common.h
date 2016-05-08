@@ -37,8 +37,8 @@
 using namespace std;
 
 // Const values
-const int MAX_CHAR = 256;       // Maximum number of chars in ASCII
-const double PI = 3.1415926     // Value of PI
+const int MAX_CHAR = 256;        // Maximum number of chars in ASCII
+const double PI = 3.1415926;     // Value of PI
 
 // Check whether character is a number or not
 inline int isNumber(char charValue)
