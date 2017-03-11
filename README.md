@@ -22,3 +22,4 @@ previous projects.
 ## History
 03-28-2016: Repo created.  
 04-05-2016 - 04-12-2016: Take one week off for paper writing
+03-10-2017: Start a two-month brushing up on coding
